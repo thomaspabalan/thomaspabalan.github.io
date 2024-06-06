@@ -294,32 +294,69 @@ a:active {
 .logo:hover {
     transform: scale(1.03);
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 820px) {
+    .login-container {
+        width: 70%;
+    }
     .main-area-header {
-        height: 7%;
+        height: 10%;
     }
-    .sidebar-button {
-        height: 7%;
+    .main-area {
+        padding-bottom: 10%;
     }
-    .main-area-content-box {
-        padding-bottom: 80%;
+    .back {
+        position: relative;
+        right: 0;
+        width: 12%;
+    }
+}
+@media screen and (max-width: 820px) and (height: 1180px) {
+    .login-container {
+        width: 70%;
+    }
+    .main-area-header {
+        height: 10%;
+    }
+    .main-area {
+        padding-bottom: 75%;
+    }
+    .back {
+        position: relative;
+        right: 0;
+        width: 12%;
+    }
+}
+@media screen and (max-width: 768px) and (height: 1024px) {
+    .login-container {
+        width: 70%;
+    }
+    .main-area-header {
+        height: 10%;
+    }
+    .main-area {
+        padding-bottom: 60%;
+    }
+    .back {
+        position: relative;
+        right: 0;
+        width: 12%;
     }
 }
 @media screen and (max-width: 410px) {
-    .sidebar-button {
-        height: 13%;
+    .login-container {
+        width: 90%;
     }
-    .main-area-content-box {
+    .main-area {
         padding-bottom: 40%;
     }
 }
 @media screen and (width: 390px) and (height: 844px) {
-    .main-area-content-box {
+    .main-area {
         padding-bottom: 65%;
     }
 }
 @media screen and (width: 393px) and (height: 851px) {
-    .main-area-content-box {
+    .main-area {
         padding-bottom: 70%;
     }
 }

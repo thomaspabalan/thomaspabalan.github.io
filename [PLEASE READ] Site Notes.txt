@@ -4,3 +4,12 @@
 
 === I HOPE YOU LIKE MY WEBSITE ===
 - TCCP, BSCS-3B
+
+=== FINALS UPDATE ===
+- Completed everything.
+- Minor responsiveness tweaks.
+- Site utilizes MySQL database for storing and retrieving data (MySQL file included in submission).
+- User lists (Username/Email/Student Number and Password) are also provided.
+
+=== I HOPE YOU LIKE MY FINALS WEBSITE (hopefully i get high grades hehe) ===
+- TCCP, BSCS-3B
