@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\style\style.css"> <!-- css link -->
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+
+    <!-- icon things (ty realfavicongenerator) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>TSU | About</title>
+</head>
+<body>
+    <audio hidden autoplay loop id="bgm">
+        <source src="../resources/bgm/sad-machine-piano.mp3">
+        Your browser doesn't support audio.
+    </audio>
+    <div class ="page">
+
+        <div class="border-accent">
+            <p>&nbsp;</p> <!-- filler so div shows -->
+        </div>
+
+        <div class ="sidebar">
+            <a class = "logo" href="../index.html" title="Go to Home Page">
+                <img src="../resources/logo/tsu.jpg" alt="TSU Logo" id ="circle" style="margin-bottom: 4%;">
+                <p style="margin-top: 8%;">Thomas State University</p>
+            </a>
+            <a class="sidebar-button" href="news.html" title="Go to News Page">
+                <p>NEWS</p>
+            </a>
+            <a class ="sidebar-button" href="courses.html" title="Go to Courses Page">
+                <p>COURSES</p>
+            </a>
+            <a class ="sidebar-button" href="contact.html" title="Go to Contact Page">
+                <p>CONTACT</p>
+            </a>
+            <a class ="sidebar-button" href="about.html" title="Go to About Page" style="background-color: #606060;">
+                <p>ABOUT</p>
+            </a>
+            <div class = "sidebar-button">
+                <p>Copyright 2023, TCCP.<br>All rights reserved.</p>
+            </div>
+        </div>
+
+        <div class="main-area">
+            <div class = "main-area-header">
+                <p style = "width: 80%; text-align: center;">A B O U T&nbsp;&nbsp;&nbsp;T S U</p>
+            </div>
+            <div class="main-area-content-box">
+                <a class = "nca-container" href = "about-pages/mission.html">
+                    <div class = "nca-box">
+                        <div class="about-header">
+                            <p style = "padding: 3%;">OUR<br>MISSION</p>
+                        </div>
+                    </div>
+                </a>
+                <a class = "nca-container" href = "about-pages/vision.html">
+                    <div class = "nca-box">
+                        <div class="about-header">
+                            <p style = "padding: 3%;">OUR<br>VISION</p>
+                        </div>
+                    </div>
+                </a>
+                <a class = "nca-container" href="about-pages/goals.html">
+                    <div class = "nca-box">
+                        <div class="about-header">
+                            <p style = "padding: 3%;">OUR<br>GOALS</p>
+                        </div>
+                    </div>
+                </a>
+                <a class = "nca-container" href="about-pages/about-tsu.html">
+                    <div class = "nca-box">
+                        <div class="about-header">
+                            <p style = "padding: 3%;">ABOUT<br>TSU</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var bgm = document.getElementById("bgm");
+    bgm.volume = 0.05;
+</script>
+</html>

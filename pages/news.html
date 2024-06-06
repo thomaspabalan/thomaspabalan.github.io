@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\style\style.css"> <!-- css link -->
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+
+    <!-- icon things (ty realfavicongenerator) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>TSU | News</title>
+</head>
+<body>
+    <audio hidden autoplay loop id="bgm">
+        <source src="../resources/bgm/vanilla-twilight-piano.mp3">
+        Your browser doesn't support audio.
+    </audio>
+    <div class ="page">
+
+        <div class="border-accent">
+            <p>&nbsp;</p> <!-- filler so div shows -->
+        </div>
+
+        <div class ="sidebar">
+            <a class = "logo" href="../index.html" title="Go to Home Page">
+                <img src="../resources/logo/tsu.jpg" alt="TSU Logo" id ="circle" style="margin-bottom: 9%;">
+                <p style="width: 100%; text-align: center;">Thomas State University</p>
+            </a>
+            <a class="sidebar-button" href="news.html" title="Go to News Page" style="background-color: #606060;">
+                <p>NEWS</p>
+            </a>
+            <a class ="sidebar-button" href="courses.html" title="Go to Courses Page">
+                <p>COURSES</p>
+            </a>
+            <a class ="sidebar-button" href="contact.html" title="Go to Contact Page">
+                <p>CONTACT</p>
+            </a>
+            <a class ="sidebar-button" href="about.html" title="Go to About Page">
+                <p>ABOUT</p>
+            </a>
+            <div class = "sidebar-button">
+                <p>Copyright 2023, TCCP.<br>All rights reserved.</p>
+            </div>
+        </div>
+
+        <div class="main-area">
+            <div class = "main-area-header">
+                <p style = "width: 80%; text-align: center;" title="All articles are temporary">T S U&nbsp;&nbsp;&nbsp;N E W S</p>
+            </div>
+            <div class="main-area-content-box">
+                <a href="news-articles/article-1/article.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img class="news-thumbnail" src="news-articles/article-1/thumb.jpg" alt="article-1 thumbnail">
+                        <p class="nc-header">Midterm Exams</p>
+                    </div>
+                </a>
+                <a href="news-articles/article-2/article.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <p class="nc-header">What is the News Section About?</p>
+                        <p class="news-preview">
+                            The HTML and CSS of both the preview and the main article have been designed with flexibility in mind. Previews and 
+                            articles may not have thumbnails or pictures attached to them (like this one) and article content previews can also 
+                            be shown (like this one again) or not shown (all other article previews) depending on the number of elements 
+                            currently being used in the preview. The article container automatically resizes based on how much content is 
+                            present in the article.
+                        </p>
+                    </div>
+                </a>
+                <a href="news-articles/article-3/article.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img class="news-thumbnail" src="news-articles/article-3/thumb.jpg" alt="article-3 thumbnail">
+                        <p class="nc-header">1st Runner-up in RAITE 2023 Quiz Bee Competition</p>
+                    </div>
+                </a>
+                <a href="news-articles/article-4/article.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img class="news-thumbnail" src="news-articles/article-4/thumb.jpg" alt="article-4 thumbnail">
+                        <p class="nc-header">1st Place winner in SISS - CCS Week Quiz Game </p>
+                    </div>
+                </a>
+                <a href="news-articles/article-5/article.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img class="news-thumbnail" src="news-articles/article-5/thumb.jpg" alt="article-5-thumbnail">
+                        <p class="nc-header">VR Experience at CCS Week Celebrations</p>
+                    </div>
+                </a>
+                <a href="news-articles/article-6/article.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img class="news-thumbnail" src="news-articles/article-6/thumb.jpg" alt="article-6-thumbnail">
+                        <p class="nc-header">Mr. TSU 2nd Runner Up</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var bgm = document.getElementById("bgm");
+    bgm.volume = 0.03;
+</script>
+</html>

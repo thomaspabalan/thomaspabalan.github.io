@@ -1,0 +1,6 @@
+- Clicking the TSU logo in the landing page takes you to the site goals page.
+- Clicking the Thomas State University label in the landing page takes you to the todo table.
+- Audio uses local files, while the video is an embedded one from YouTube.
+
+=== I HOPE YOU LIKE MY WEBSITE ===
+- TCCP, BSCS-3B

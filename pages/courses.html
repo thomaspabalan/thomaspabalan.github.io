@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\style\style.css"> <!-- css link -->
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+
+    <!-- icon things (ty realfavicongenerator) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>TSU | Courses</title>
+</head>
+<body>
+    <audio hidden autoplay loop id="bgm">
+        <source src="../resources/bgm/everything-goes-on-piano.mp3">
+        Your browser doesn't support audio.
+    </audio>
+    <div class ="page">
+
+        <div class="border-accent">
+            <p>&nbsp;</p> <!-- filler so div shows -->
+        </div>
+
+        <div class ="sidebar">
+            <a class = "logo" href="../index.html" title="Go to Home Page">
+                <img src="../resources/logo/tsu.jpg" alt="TSU Logo" id ="circle" style="margin-bottom: 4%;">
+                <p style="margin-top: 8%;">Thomas State University</p>
+            </a>
+            <a class="sidebar-button" href="news.html" title="Go to News Page">
+                <p>NEWS</p>
+            </a>
+            <a class ="sidebar-button" href="courses.html" title="Go to Courses Page" style="background-color: #606060;">
+                <p>COURSES</p>
+            </a>
+            <a class ="sidebar-button" href="contact.html" title="Go to Contact Page">
+                <p>CONTACT</p>
+            </a>
+            <a class ="sidebar-button" href="about.html" title="Go to About Page">
+                <p>ABOUT</p>
+            </a>
+            <div class = "sidebar-button">
+                <p>Copyright 2023, TCCP.<br>All rights reserved.</p>
+            </div>
+        </div>
+
+        <div class="main-area">
+            <div class = "main-area-header">
+                <p style = "width: 80%; text-align: center;">O U R&nbsp;&nbsp;&nbsp;C O U R S E S</p>
+            </div>
+            <div class="main-area-content-box">
+                <a href="uni-courses/cafa.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/cafa.jpg" alt="CAFA Logo" class="course-thumbnail">
+                        <p class="nc-header">CAFA (ARCHITECTURE AND FINE ARTS)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/cass.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/cass.jpg" alt="CASS Logo" class="course-thumbnail">
+                        <p class="nc-header">CASS (ARTS AND SOCIAL SCIENCES)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/cba.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/cba.jpg" alt="CBA Logo" class="course-thumbnail">
+                        <p class="nc-header">CBA (BUSINESS AND ACCOUNTANCY)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/ccje.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/ccje.jpg" alt="CCJE Logo" class="course-thumbnail">
+                        <p class="nc-header">CCJE (CRIMINAL JUSTICE EDUCATION)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/ccs.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/ccs.jpg" alt="CCS Logo" class="course-thumbnail">
+                        <p class="nc-header">CCS (COMPUTER STUDIES)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/coe.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/coe.jpg" alt="COE Logo" class="course-thumbnail">
+                        <p class="nc-header">COE (ENGINEERING)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/coed.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/coed.jpg" alt="COED Logo" class="course-thumbnail">
+                        <p class="nc-header">COED (TEACHER EDUCATION)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/cos.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/cos.jpg" alt="COS Logo" class="course-thumbnail">
+                        <p class="nc-header">COS (SCIENCE)</p>
+                    </div>
+                </a>
+                <a href="uni-courses/cpag.html" class = "nca-container">
+                    <div class = "nca-box">
+                        <img src="../resources/logo/cpag.jpg" alt="CPAG Logo" class="course-thumbnail">
+                        <p class="nc-header">CPAG (PUBLIC ADMIN AND GOVERNANCE)</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var bgm = document.getElementById("bgm");
+    bgm.volume = 0.01;
+</script>
+</html>
